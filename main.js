@@ -6,5 +6,8 @@
 //concede o acesso ao código, atribuir para tocar o som
 document.querySelector('.tecla_pom').onclick = tocaSomPom;*/
 
+document.querySelector('.tecla_pom');
 
-
+function criarSomPom(){
+  document.querySelector('#som_tecla_pom').play;
+}
