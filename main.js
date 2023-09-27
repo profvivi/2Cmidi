@@ -1,3 +1,4 @@
+/*O método query-Selector busca apenas o primeiro elemento correspondente ao seletor. Exemplo abaixo*/
 //tecla Pom
 function tocaSomPom () {
   document.querySelector('#som_tecla_pom').play();
