@@ -12,19 +12,54 @@ function tocaSomClap () {
 
 document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla tim
+function tocaSomTim () {
+  document.querySelector('#som_tecla_tim').play();
+}
 
+document.querySelector('.tecla_tim').onclick = tocaSomTim;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
+//tecla clap
+function tocaSomClap () {
+  document.querySelector('#som_tecla_clap').play();
+}
 
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
 
 
