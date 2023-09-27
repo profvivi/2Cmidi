@@ -63,9 +63,10 @@ function tocaSomTom () {
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 
 /*Utilizaremos a palavra All que,em português, significa “todos”, o método querySelectorAll 
-realiza uma busca por todos os elementos HTML que possuem o mesmo seletor. */
+realiza uma busca por todos os elementos HTML que possuem o mesmo seletor.
+No seletor digitar document.querySelectorAll('.tecla') e dar um enter para visualizar a lista */
 
-
+document.querySelectorAll('tecla');
 
 
 
