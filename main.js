@@ -81,9 +81,9 @@ Para armazenar um valor na referência criada, utilize o comando de atribuição
 Conclusão:a lista de elementos encontrada por meio do método de busca
 querySelectorAll será armazenada na referência listaDeTeclas.*/
 
-const listaDeTeclas = document.querySelectorAll('.tecla');
+//const listaDeTeclas = document.querySelectorAll('.tecla');
 
-listaDeTeclas[0].onclick = tocaSomPom;
+//listaDeTeclas[0].onclick = tocaSomPom;
 
 //Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
 
