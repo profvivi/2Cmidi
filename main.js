@@ -62,6 +62,11 @@ function tocaSomTom () {
 
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 */
+
+function tocaSomPom () {
+  document.querySelector('#som_tecla_pom').play();
+}
+
 /*Armazenar a lista de elementos em uma referencia:
 Utilizaremos a palavra All que,em português, significa “todos”, o método querySelectorAll 
 realiza uma busca por todos os elementos HTML que possuem o mesmo seletor(verificar no html).
