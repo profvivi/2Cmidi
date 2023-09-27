@@ -1,6 +1,6 @@
 /*O método query-Selector busca apenas o primeiro elemento correspondente ao seletor. Exemplo abaixo*/
 //tecla Pom
-function tocaSomPom () {
+/*function tocaSomPom () {
   document.querySelector('#som_tecla_pom').play();
 }
 
@@ -61,7 +61,7 @@ function tocaSomTom () {
 }
 
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
-
+*/
 /*Armazenar a lista de elementos em uma referencia:
 Utilizaremos a palavra All que,em português, significa “todos”, o método querySelectorAll 
 realiza uma busca por todos os elementos HTML que possuem o mesmo seletor(verificar no html).
