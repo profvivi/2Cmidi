@@ -72,7 +72,7 @@ Utilizaremos a palavra All que,em português, significa “todos”, o método q
 realiza uma busca por todos os elementos HTML que possuem o mesmo seletor(verificar no html).
 No seletor(teste) digitar document.querySelectorAll('.tecla') e dar um enter para visualizar a lista */
 
-document.querySelectorAll('.tecla');
+//document.querySelectorAll('.tecla');
 
 /*criando referencia - (reduzindo referencia da linha)deve utilizar a palavra reserva-
 da const. A palavra const vem de “constante”, ou seja, algo que nunca muda.
