@@ -62,15 +62,21 @@ function tocaSomTom () {
 
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 
-/*Utilizaremos a palavra All que,em português, significa “todos”, o método querySelectorAll 
+/*Armazenar a lista de elementos em uma referencia:
+Utilizaremos a palavra All que,em português, significa “todos”, o método querySelectorAll 
 realiza uma busca por todos os elementos HTML que possuem o mesmo seletor(verificar no html).
 No seletor(teste) digitar document.querySelectorAll('.tecla') e dar um enter para visualizar a lista */
 
 document.querySelectorAll('tecla');
 
-/*criando referencia - reduzindo referencia da linha*/
+/*criando referencia - (reduzindo referencia da linha)deve utilizar a palavra reserva-
+da const. A palavra const vem de “constante”, ou seja, algo que nunca muda.
+Então criar um nome para essa lista(para guardar a lista de botoes)
+Para armazenar um valor na referência criada, utilize o comando de atribuição =.
+Conclusão:a lista de elementos encontrada por meio do método de busca
+querySelectorAll será armazenada na referência listaDeTeclas.*/
 
-
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
 
