@@ -85,6 +85,9 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 listaDeTeclas[0].onclick = tocaSomPom;
 
+//Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
+
+
 
 
 
