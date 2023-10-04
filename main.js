@@ -90,7 +90,12 @@ function tocaSomPom () {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
+let contador = 0; //loop infinito então
 
 while () {
   listaDeTeclas[0].onclick = tocaSomPom;
+
+  contador = contador + 1; //então conta
+
+  console.log(contador);//imprimir o contador várias vezes
 }
