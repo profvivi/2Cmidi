@@ -63,13 +63,8 @@ function tocaSomTom () {
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 */
 
-function tocaSomPom () {
-  document.querySelector('#som_tecla_pom').play();
-}
 
-const listaDeTeclas = document.querySelectorAll('.tecla');
-listaDeTeclas[0].onclick = tocaSomPom;
-
+//-------------------------------------------------------------------------
 
 /*criando referencia - (reduzindo referencia da linha)deve utilizar a palavra reserva-
 da const. A palavra const vem de “constante”, ou seja, algo que nunca muda.
@@ -82,9 +77,16 @@ querySelectorAll será armazenada na referência listaDeTeclas.*/
 
 //listaDeTeclas[0].onclick = tocaSomPom;
 
-//Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
-
 //Declarar e chamar a função, executar o som através do play
 /*
 querySelector para selecionar elementos
 concede o acesso ao código, atribuir para tocar o som*/
+//-----------------------------------------------------------------------------
+//Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
+
+function tocaSomPom () {
+  document.querySelector('#som_tecla_pom').play();
+}
+
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[0].onclick = tocaSomPom;
