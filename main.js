@@ -84,16 +84,6 @@ querySelectorAll será armazenada na referência listaDeTeclas.*/
 
 //Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
 
-
-
-
-
-
-
-
-
-
-
 //Declarar e chamar a função, executar o som através do play
 /*
 querySelector para selecionar elementos
