@@ -82,11 +82,15 @@ querySelectorAll será armazenada na referência listaDeTeclas.*/
 querySelector para selecionar elementos
 concede o acesso ao código, atribuir para tocar o som*/
 //-----------------------------------------------------------------------------
-//Automatizando a lista - adicionar a estrutura de repetição while.Próxima aula
+//Estrutura de repetição  -enquanto - receber se verdadeiro ou falso
 
 function tocaSomPom () {
   document.querySelector('#som_tecla_pom').play();
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
-listaDeTeclas[0].onclick = tocaSomPom;
+
+
+while () {
+  listaDeTeclas[0].onclick = tocaSomPom;
+}
