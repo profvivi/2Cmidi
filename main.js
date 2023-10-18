@@ -93,9 +93,10 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0; //loop infinito então
 
 while (contador < listaDeTeclas.length) {
-  listaDeTeclas[contador].onclick = tocaSom('#som_tecla_splash');
+  listaDeTeclas[contador].onclick = function () {
+    tocaSom('#som_tecla_splash');
 
   contador = contador + 1; //então conta
 
   console.log(contador);//imprimir o contador várias vezes
-}
+};
