@@ -84,8 +84,8 @@ concede o acesso ao código, atribuir para tocar o som*/
 //-----------------------------------------------------------------------------
 //Estrutura de repetição  -enquanto - receber se verdadeiro ou falso
 
-function tocaSomPom () {
-  document.querySelector('#som_tecla_pom').play();
+function tocaSom (idElementoAudio) {
+  document.querySelector(idElementoAudio).play();
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
@@ -93,7 +93,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0; //loop infinito então
 
 while (contador < listaDeTeclas.length) {
-  listaDeTeclas[contador].onclick = tocaSomPom;
+  listaDeTeclas[contador].onclick = tocaSom ('#som_tecla_splash');
 
   contador = contador + 1; //então conta
 
