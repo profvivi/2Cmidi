@@ -73,9 +73,23 @@ Para armazenar um valor na referência criada, utilize o comando de atribuição
 Conclusão:a lista de elementos encontrada por meio do método de busca
 querySelectorAll será armazenada na referência listaDeTeclas.*/
 
-//const listaDeTeclas = document.querySelectorAll('.tecla');
+function tocaSomAplausos(){
+  document.querySelector('#som_tecla_aplausos').play();
+  }
 
-//listaDeTeclas[0].onclick = tocaSomPom;
+  function tocaSomVaia(){
+      document.querySelector('#som_tecla_vaia').play();
+      }
+      function tocaSomRisada(){
+          document.querySelector('#som_tecla_risada').play();
+          }
+
+          const listaDeTeclas = document.querySelectorAll('.tecla');
+          listaDeTeclas[0].onclick = tocaSomAplausos;
+          listaDeTeclas[1].onclick = tocaSomVaia;
+          listaDeTeclas[2].onclick = tocaSomRisada;
+
+
 
 //Declarar e chamar a função, executar o som através do play
 /*
@@ -84,7 +98,7 @@ concede o acesso ao código, atribuir para tocar o som*/
 //-----------------------------------------------------------------------------
 //Estrutura de repetição  -enquanto - receber se verdadeiro ou falso
 
-function tocaSom (idElementoAudio) {
+/*function tocaSom (idElementoAudio) {
   document.querySelector(idElementoAudio).play();
 }
 
@@ -99,4 +113,4 @@ while (contador < listaDeTeclas.length) {
   contador = contador + 1; //então conta
 
   console.log(contador);//imprimir o contador várias vezes
-};
+};*/
