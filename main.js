@@ -89,6 +89,12 @@ document.querySelector('#som_tecla_tim').play();
   listaDeTeclas[0].onclick = tocaSomPom;
   listaDeTeclas[1].onclick = tocaSomClap;
   listaDeTeclas[2].onclick = tocaSomTim;
+  listaDeTeclas[3].onclick = tocaSomPom;
+  listaDeTeclas[4].onclick = tocaSomClap;
+  listaDeTeclas[5].onclick = tocaSomTim;
+  listaDeTeclas[6].onclick = tocaSomTim;
+  listaDeTeclas[7].onclick = tocaSomTim;
+  listaDeTeclas[8].onclick = tocaSomTim;
 
 
 
