@@ -85,6 +85,18 @@ function tocaSomTim(){
 document.querySelector('#som_tecla_tim').play();
 }
 
+function tocaSomPuf(){
+  document.querySelector('#som_tecla_puf').play();
+  }
+  function tocaSomSplash(){
+    document.querySelector('#som_tecla_splash').play();
+    }
+    function tocaSomToim(){
+      document.querySelector('#som_tecla_toim').play();
+      }
+      function tocaSomPsh(){
+        document.querySelector('#som_tecla_psh').play();
+        }
   const listaDeTeclas = document.querySelectorAll('.tecla');
   listaDeTeclas[0].onclick = tocaSomPom;
   listaDeTeclas[1].onclick = tocaSomClap;
