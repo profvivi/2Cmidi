@@ -117,9 +117,9 @@ concede o acesso ao código, atribuir para tocar o som*/
 //-----------------------------------------------------------------------------
 //Estrutura de repetição  -enquanto - receber se verdadeiro ou falso
 
-/*function tocaSom (idElementoAudio) {
+function tocaSom (idElementoAudio) {
   document.querySelector(idElementoAudio).play();
-}*/
+}
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
