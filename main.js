@@ -138,7 +138,7 @@ while (contador = listaDeTeclas.length) {
 
   tecla.onclick = function () {
     tocaSom(idAudio);
-
+  }
   contador = contador + 1; //então conta
 
   console.log(contador);//imprimir o contador várias vezes
