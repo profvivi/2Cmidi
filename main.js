@@ -116,9 +116,13 @@ querySelector para selecionar elementos
 concede o acesso ao código, atribuir para tocar o som*/
 //-----------------------------------------------------------------------------
 //Estrutura de repetição  -enquanto - receber se verdadeiro ou falso
+//--------------------------------------------------------------------------------------
 
+//Vamos substituir a função de tocarSomAplausos por uma função genérica que irá receber o id do elemento de áudio.
+//Nome da função tocaSom
+//declarar parametro idElementoAudio
 function tocaSom(idElementoAudio) {
-  document.querySelector(idElementoAudio).play();
+  document.querySelector(idElementoAudio).play();//utilize o parâmetro recebido  no querySelector
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
@@ -126,12 +130,13 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0; //loop infinito então
 
 //enquanto (condição)
+//A propriedade length aplicada a uma variável com lista de valores retorna a quantidade de elementos na lista.
 while (contador < listaDeTeclas.length) {
 
   const tecla = listaDeTeclas[contador];
-  const instrumento = tecla.classList[1];
+  const instrumento = tecla.classList[1];// classe que identifica o áudio
 
-  //template string
+  //template string"""
   const idAudio = `#som_${instrumento}`;
 
   console.log(idAudio);//imprimir o contador várias vezes
